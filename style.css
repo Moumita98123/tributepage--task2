@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Times,serif;
+    color: white;
+    background: rgb(61, 89, 121);
+}
+.header{
+    padding: Zream;
+    margin: Zream auto;
+    text-align: center;
+}
+.title{
+    font-size: medium;
+    margin-bottom: 0.5rem;
+}
+.tribute{
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    align-items: center;
+    padding: 0px 0px 0px 0.5rem;
+}
+.tribute blockquote{
+    text-align: left;
+    font-size: 3rem;
+}
+.tribute img {
+    max-width: 100%;
+}
+.bio {
+    margin: Zrem,auto;
+    padding: 0px 0 5rem;
+    max-width: 40rem;
+}
+.bio h2 {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.4;
+}
+.bio p {
+    margin-left: 10rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    position: absolute;
+    margin-bottom: 2rem;
+}
+.bio hr{
+    margin-top: Zrem;
+    margin-bottom: Zrem;
+}
